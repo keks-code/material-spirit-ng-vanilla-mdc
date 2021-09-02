@@ -11,7 +11,7 @@
       "projectType": "library",
       "root": "projects/ngx-vanilla-mdc",
       "sourceRoot": "projects/ngx-vanilla-mdc/src",
-      "prefix": "lib",
+      "prefix": "mas",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
