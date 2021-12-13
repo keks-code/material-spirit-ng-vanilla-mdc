@@ -5,6 +5,7 @@ import { TopAppBarDirective } from './directives/top-app-bar.directive';
 import { TextFieldDirective } from './directives/text-field.directive';
 import { RippleDirective } from './directives/ripple.directive';
 import { MasMdcDialogDirective } from "./directives/dialog.directive";
+import { MasMdcCircularProgressDirective } from "./directives/circular-progress.directive";
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MasMdcDialogDirective } from "./directives/dialog.directive";
     TopAppBarDirective,
     TextFieldDirective,
     RippleDirective,
-    MasMdcDialogDirective
+    MasMdcDialogDirective,
+    MasMdcCircularProgressDirective
   ],
   imports: [
   ],
@@ -22,7 +24,8 @@ import { MasMdcDialogDirective } from "./directives/dialog.directive";
     TopAppBarDirective,
     TextFieldDirective,
     RippleDirective,
-    MasMdcDialogDirective
+    MasMdcDialogDirective,
+    MasMdcCircularProgressDirective
   ]
 })
 export class NgxVanillaMdcModule { }
