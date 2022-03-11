@@ -4,6 +4,7 @@ import { NgxVanillaMdcComponent } from './ngx-vanilla-mdc.component';
 import { TopAppBarDirective } from './directives/top-app-bar.directive';
 import { TextFieldDirective } from './directives/text-field.directive';
 import { RippleDirective } from './directives/ripple.directive';
+import { MasMdcSwitchDirective } from './directives/switch.directive';
 import { MasMdcDialogDirective } from "./directives/dialog.directive";
 import { MasMdcCircularProgressDirective } from "./directives/circular-progress.directive";
 
@@ -14,6 +15,7 @@ import { MasMdcCircularProgressDirective } from "./directives/circular-progress.
     TopAppBarDirective,
     TextFieldDirective,
     RippleDirective,
+    MasMdcSwitchDirective,
     MasMdcDialogDirective,
     MasMdcCircularProgressDirective
   ],
@@ -24,6 +26,7 @@ import { MasMdcCircularProgressDirective } from "./directives/circular-progress.
     TopAppBarDirective,
     TextFieldDirective,
     RippleDirective,
+    MasMdcSwitchDirective,
     MasMdcDialogDirective,
     MasMdcCircularProgressDirective
   ]

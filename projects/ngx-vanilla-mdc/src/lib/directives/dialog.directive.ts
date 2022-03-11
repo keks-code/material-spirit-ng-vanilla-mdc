@@ -23,8 +23,8 @@ export class MasMdcDialogDirective implements OnInit, OnDestroy, AfterViewInit {
     this.mdcDialog.destroy();
   }
 
-  open(): void {
-    this.mdcDialog.open();
-  }
+  // open(): void {
+  //   this.mdcDialog.open();
+  // }
 
 }
