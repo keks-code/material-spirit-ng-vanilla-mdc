@@ -7,23 +7,23 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-vanilla-mdc": {
+    "ngx-raw-mdc": {
       "projectType": "library",
-      "root": "projects/ngx-vanilla-mdc",
-      "sourceRoot": "projects/ngx-vanilla-mdc/src",
+      "root": "projects/ngx-raw-mdc",
+      "sourceRoot": "projects/ngx-raw-mdc/src",
       "prefix": "mas",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-vanilla-mdc/ng-package.json"
+            "project": "projects/ngx-raw-mdc/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-vanilla-mdc/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-raw-mdc/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-vanilla-mdc/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-raw-mdc/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -31,13 +31,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-vanilla-mdc/src/test.ts",
-            "tsConfig": "projects/ngx-vanilla-mdc/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-vanilla-mdc/karma.conf.js"
+            "main": "projects/ngx-raw-mdc/src/test.ts",
+            "tsConfig": "projects/ngx-raw-mdc/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-raw-mdc/karma.conf.js"
           }
         }
       }
     }
   },
-  "defaultProject": "ngx-vanilla-mdc"
+  "defaultProject": "ngx-raw-mdc"
 }

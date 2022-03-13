@@ -12,9 +12,9 @@
     "declaration": false,
     "downlevelIteration": true,
     "paths": {
-      "ngx-vanilla-mdc": [
-        "dist/ngx-vanilla-mdc/ngx-vanilla-mdc",
-        "dist/ngx-vanilla-mdc"
+      "ngx-raw-mdc": [
+        "dist/ngx-raw-mdc/ngx-raw-mdc",
+        "dist/ngx-raw-mdc"
       ]
     },
     "experimentalDecorators": true,
