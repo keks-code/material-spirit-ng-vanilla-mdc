@@ -10,13 +10,16 @@
 
 
 
-## Development server
+## Development
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `yarn install` to install workspace dependecies.
+Run `cd .\projects\ngx-raw-mdc\` and then `yarn install` to install library dependencies.
+
+`cd ..\..` to get back to root folder.
 
 ## Build
 
-Run `yarn build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `yarn build` to build the library. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
