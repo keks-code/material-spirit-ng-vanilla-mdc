@@ -11,3 +11,4 @@ export * from './lib/directives/ripple.directive';
 export * from './lib/directives/switch.directive';
 export * from './lib/directives/dialog.directive';
 export * from './lib/directives/circular-progress.directive';
+export * from './lib/directives/linear-progress.directive';

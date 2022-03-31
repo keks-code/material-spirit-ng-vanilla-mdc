@@ -7,6 +7,7 @@ import { RippleDirective } from './directives/ripple.directive';
 import { MasMdcSwitchDirective } from './directives/switch.directive';
 import { MasMdcDialogDirective } from "./directives/dialog.directive";
 import { MasMdcCircularProgressDirective } from "./directives/circular-progress.directive";
+import { MasMdcLinearProgressDirective } from "./directives/linear-progress.directive";
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MasMdcCircularProgressDirective } from "./directives/circular-progress.
     RippleDirective,
     MasMdcSwitchDirective,
     MasMdcDialogDirective,
-    MasMdcCircularProgressDirective
+    MasMdcCircularProgressDirective,
+    MasMdcLinearProgressDirective
   ],
   imports: [
   ],
@@ -28,7 +30,8 @@ import { MasMdcCircularProgressDirective } from "./directives/circular-progress.
     RippleDirective,
     MasMdcSwitchDirective,
     MasMdcDialogDirective,
-    MasMdcCircularProgressDirective
+    MasMdcCircularProgressDirective,
+    MasMdcLinearProgressDirective
   ]
 })
 export class NgxVanillaMdcModule { }
