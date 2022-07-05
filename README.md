@@ -21,6 +21,10 @@ Run `cd .\projects\ngx-raw-mdc\` and then `yarn install` to install library depe
 
 Run `yarn build` to build the library. The build artifacts will be stored in the `dist/` directory.
 
+## Using in project
+
+После ребилда библиотеку надо обновить в используещем приложении: `yarn upgrade ngx-raw-mdc`
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).

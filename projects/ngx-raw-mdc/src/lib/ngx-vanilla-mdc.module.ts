@@ -8,6 +8,7 @@ import { MasMdcSwitchDirective } from './directives/switch.directive';
 import { MasMdcDialogDirective } from "./directives/dialog.directive";
 import { MasMdcCircularProgressDirective } from "./directives/circular-progress.directive";
 import { MasMdcLinearProgressDirective } from "./directives/linear-progress.directive";
+import { MasMdcBannerDirective } from "./directives/banner.directive";
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { MasMdcLinearProgressDirective } from "./directives/linear-progress.dire
     MasMdcSwitchDirective,
     MasMdcDialogDirective,
     MasMdcCircularProgressDirective,
-    MasMdcLinearProgressDirective
+    MasMdcLinearProgressDirective,
+    MasMdcBannerDirective
   ],
   imports: [
   ],
@@ -31,7 +33,8 @@ import { MasMdcLinearProgressDirective } from "./directives/linear-progress.dire
     MasMdcSwitchDirective,
     MasMdcDialogDirective,
     MasMdcCircularProgressDirective,
-    MasMdcLinearProgressDirective
+    MasMdcLinearProgressDirective,
+    MasMdcBannerDirective
   ]
 })
 export class NgxVanillaMdcModule { }
