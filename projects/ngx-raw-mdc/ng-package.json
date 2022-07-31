@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/ngx-vanilla-mdc",
+  "dest": "../../dist/ngx-raw-mdc",
   "lib": {
     "entryFile": "src/public-api.ts"
   }
